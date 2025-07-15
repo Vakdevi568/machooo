@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment folders
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm, VSCode, other IDEs
+.idea/
+.vscode/
+
+# Model files and datasets (optional)
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+checkpoints/
+runs/
+logs/
+*.log
+
+# Hugging Face cache
+~/.cache/huggingface
+**/transformers_cache/
+**/datasets_cache/
+
+# Tokenized / intermediate data
+data/tokenized_dataset/
+*.jsonl
+
+# OS and Editor specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git files
+*.orig
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Spyder project settings
+.spyderproject
+.spyproject
